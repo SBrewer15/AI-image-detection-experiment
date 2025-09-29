@@ -1,0 +1,25 @@
+name: dlib-kpt
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - pip
+  - jupyter
+  - pytorch
+  - torchvision
+  - torchaudio
+  - dlib
+  - opencv
+  - pip:
+      - matplotlib
+      - numpy
+      - fastcore
+      - diffusers
+      - transformers
+      - sentencepiece
+      - protobuf
+      - pandas
+      - clip-interrogator==0.6.0
+      - scikit-learn
+      - peft
